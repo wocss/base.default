@@ -1,0 +1,83 @@
+//  Typography
+//  ==========================================================================
+
+
+//  Variables
+//  --------------------------------------------------------------------------
+
+$heading-text-color : $base-text-color !default;
+$heading-font-family: $base-font-family !default;
+$heading-weight     : $fw-bold !default;
+
+$link-color      : $color-primary !default;
+$link-color-hover: lightness($link-color, 50%) !default;
+
+
+//  Rules
+//  --------------------------------------------------------------------------
+
+html {
+  background-color: $base-background-color;
+  color: $base-text-color;
+  font-family: $base-font-family;
+  font-size: ($base-font-size / 16px) * 1em;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height / $base-font-size;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-text-color;;
+  font-family: $heading-font-family;
+  font-weight: $heading-font-weight;
+}
+
+h1 { font-size: $fz-h1 };
+h2 { font-size: $fz-h2 };
+h3 { font-size: $fz-h3 };
+h4 { font-size: $fz-h4 };
+h5 { font-size: $fz-h5 };
+h6 { font-size: $fz-h6 };
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a[href]:not([class]) {
+  color: $link-color;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: $link-color-hover;
+  }
+}
+
+hr {
+  border-bottom: $base-border;
+}
+
+img,
+picture {
+  max-width: 100%;
+}
+
+pre,
+code {
+  background: $light-grey;
+  color: $black;
+  font-size: 1rem;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+pre {
+  display: block;
+  padding: 1em;
+}
+
+blockquote {
+  border-left: .2rem solid $color-primary;
+  font-style: italic;
+  padding: 0 2em;
+}

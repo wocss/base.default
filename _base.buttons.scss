@@ -1,0 +1,13 @@
+//  Buttons
+//  ==========================================================================
+
+
+input[type="submit"],
+button {
+  @include button();
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
