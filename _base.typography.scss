@@ -7,10 +7,11 @@
 
 $heading-text-color : $base-text-color !default;
 $heading-font-family: $base-font-family !default;
-$heading-font-weight     : $fw-bold !default;
+$heading-font-weight: $fw-s-bold !default;
 
 $link-color      : $color-primary !default;
 $link-color-hover: lighten($link-color, 10%) !default;
+
 
 //  Rules
 //  --------------------------------------------------------------------------
@@ -19,9 +20,9 @@ html {
   background-color: $base-background-color;
   color: $base-text-color;
   font-family: $base-font-family;
-  font-size: ($base-font-size / 16px) * 1em;
+  font-size: $base-font-size;
   font-weight: $base-font-weight;
-  line-height: $base-line-height / $base-font-size;
+  line-height: $base-line-height;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -72,11 +73,11 @@ code {
 
 pre {
   display: block;
-  padding: 1em;
+  padding: $base-spacing-unit;
 }
 
 blockquote {
-  border-left: .2rem solid $color-primary;
+  border-left: 3px solid $color-primary;
   font-style: italic;
-  padding: 0 2em;
+  padding: 0 $base-spacing-unit;
 }
