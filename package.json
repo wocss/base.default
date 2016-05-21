@@ -1,11 +1,11 @@
 {
   "name": "wocss-base-defaults",
   "version": "0.0.1",
-  "description": "wocss' default base-level styling.",
+  "description": "wocss' defaults base-level styling.",
   "main": "_base.defaults.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wocss/base.default.git"
+    "url": "git+https://github.com/wocss/base.defaults.git"
   },
   "keywords": [
     "wocss",
@@ -15,7 +15,7 @@
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wocss/base.default/issues"
+    "url": "https://github.com/wocss/base.defaults/issues"
   },
-  "homepage": "https://github.com/wocss/base.default#readme"
+  "homepage": "https://github.com/wocss/base.defaults#readme"
 }
