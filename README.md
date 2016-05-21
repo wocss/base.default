@@ -7,3 +7,8 @@ Install using npm:
 ```sh
 $ npm install --save wocss-base-defaults
 ```
+
+## Dependencies
+
+* [wocss-settings-defaults](https://github.com/wocss/settings.default)
+* [wocss-tools-mixins](https://github.com/wocss/tools.mixins)
