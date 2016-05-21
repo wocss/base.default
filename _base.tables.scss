@@ -10,7 +10,7 @@ table {
 
 th,
 td {
-  border-bottom: $base-border-width solid shade($base-border-color, 25%);
+  border-bottom: $base-border;
   padding: .5em 0;
 }
 
