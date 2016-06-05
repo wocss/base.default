@@ -32,6 +32,12 @@ input[type="file"] {
   width: 100%;
 }
 
+input,
+textarea,
+select {
+  color: inherit;
+}
+
 select {
   display: inline-block;
   max-width: 100%;
