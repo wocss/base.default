@@ -8,9 +8,10 @@
     "url": "git+https://github.com/wocss/base.defaults.git"
   },
   "keywords": [
-    "oocss",
+    "bemit",
+    "css",
+    "itcss",
     "sass",
-    "scss",
     "wocss"
   ],
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
