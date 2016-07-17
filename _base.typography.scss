@@ -2,7 +2,7 @@
   #Typography
 \*------------------------------------*/
 
-//  Variables
+// variables
 
 $heading-text-color : $base-text-color !default;
 $heading-font-family: $base-font-family !default;
@@ -15,7 +15,7 @@ $link-color-hover: lighten($link-color, 10%) !default;
 
 
 
-//  Rules
+// rules
 
 html {
   background-color: $base-background-color;
