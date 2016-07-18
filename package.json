@@ -2,7 +2,7 @@
   "name": "wocss-base-defaults",
   "version": "0.1.0",
   "description": "wocss' defaults base-level styling.",
-  "main": "_base.defaults.scss",
+  "main": "src/_base.defaults.scss",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wocss/base.defaults.git"
