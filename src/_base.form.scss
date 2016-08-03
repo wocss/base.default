@@ -2,9 +2,9 @@
   #Form
 \*------------------------------------*/
 
-fieldset,
-legend {
-  border: 0;
+fieldset {
+  margin: 0;
+  padding: $base-spacing-unit / 2;
 }
 
 label,
@@ -13,35 +13,25 @@ legend {
 }
 
 input,
-label,
+select,
 textarea {
+  color: inherit;
   display: block;
-}
-
-input[type="search"] {
-  appearance: none;
+  font: inherit;
+  padding: $base-spacing-unit / 2;
+  width: 100%;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
   display: inline-block;
-  margin-right: .25em;
+  margin: 0 0.25em 0 0;
+  vertical-align: middle;
+  width: auto;
 }
 
 input[type="file"] {
-  width: 100%;
-}
-
-input,
-textarea,
-select {
-  color: inherit;
-}
-
-select {
-  display: inline-block;
-  max-width: 100%;
-  width: auto;
+  padding: 0;
 }
 
 textarea {
