@@ -15,8 +15,6 @@ $link-color-hover: lighten($link-color, 10%) !default;
 
 
 
-// rules
-
 html {
   background-color: $base-background-color;
   color: $base-text-color;
@@ -25,6 +23,10 @@ html {
   font-weight: $base-font-weight;
   line-height: $base-line-height;
 }
+
+
+
+
 
 h1, h2, h3, h4, h5, h6 {
   color: $heading-text-color;
@@ -38,6 +40,10 @@ h3 { font-size: $fz-h3 };
 h4 { font-size: $fz-h4 };
 h5 { font-size: $fz-h5 };
 h6 { font-size: $fz-h6 };
+
+
+
+
 
 a {
   color: inherit;
@@ -54,14 +60,9 @@ a:not([class]) {
   }
 }
 
-hr {
-  border-bottom: $base-border;
-}
 
-img,
-picture {
-  max-width: 100%;
-}
+
+
 
 pre,
 code {
@@ -74,11 +75,23 @@ code {
 
 pre {
   display: block;
-  padding: $base-spacing-unit;
+  padding: $base-spacing-unit / 2;
 }
+
+
+
+
 
 blockquote {
   border-left: 3px solid $color-primary;
   font-style: italic;
-  padding: 0 $base-spacing-unit;
+  padding: $base-spacing-unit / 2;
+}
+
+
+
+
+
+hr {
+  border-bottom: $base-border;
 }
