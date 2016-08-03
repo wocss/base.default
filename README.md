@@ -2,7 +2,7 @@
 
 > Base
 
-The `wocss-base-defaults` module is a very high-level module which styles are very basic, global, page-level aspects such at the project’s base font-size and line-height.
+The `wocss-base-defaults` module is a very high-level module which styles are very basic, global, page-level aspects such at the project’s base font-size and line-height, typography elements and form styles.
 
 Install using npm:
 
