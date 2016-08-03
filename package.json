@@ -1,6 +1,6 @@
 {
   "name": "wocss-base-defaults",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "wocss' defaults base-level styling.",
   "main": "src/_base.defaults.scss",
   "repository": {
