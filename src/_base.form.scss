@@ -34,6 +34,13 @@ input[type="file"] {
   padding: 0;
 }
 
+input[type="button"],
+button {
+  display: inline-block;
+  width: auto;
+  padding: 0.5em;
+}
+
 textarea {
   resize: vertical;
 }
